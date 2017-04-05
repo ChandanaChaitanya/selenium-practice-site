@@ -14,37 +14,46 @@
     <!-- Bootstrap Core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
   </head>  
-  <body style="font-size:18px; font-family:alegreya;">  
-    <form name="OptionsForm">  
+  <!-- BODY START -->
+  <body style="font-size:18px; font-family:alegreya;"> 
+	<!-- FORM START -->  
+    <form id="practiceForm" name="OptionsForm">  
+	  <!-- RADIO BUTTONS START -->
       <div class="row" style="margin:10px;"> 
 		<div class="col-md-12 col-xs-10 col-xs-offset-1" >
-		<strong>I have:&nbsp;&nbsp;</strong></div>
-		<div class="col-md-6 col-xs-10 col-xs-offset-1">
-			<input type="checkbox" name="vehicle1" value="Bicycle">&nbsp;Bicycle  
-			<input type="checkbox" name="vehicle2" value="Tricycle" disabled>&nbsp;Tricycle   
-			<input type="checkbox" name="vehicle3" value="Bike">&nbsp;Bike 
+			<strong>I have:&nbsp;&nbsp;</strong>
 		</div>
-		<div class="col-md-6 col-xs-10 col-xs-offset-1">
-			<input type="checkbox" name="vehicle4" value="Bike">&nbsp;Hatchback		
-			<input type="checkbox" name="vehicle5" value="Sedan">&nbsp;Sedan    
-			<input type="checkbox" name="vehicle6" value="Van">&nbsp;Van
-			<input type="checkbox" name="vehicle7" value="SUV">&nbsp;SUV
-			<input type="checkbox" name="vehicle8" value="Truck">&nbsp;Truck	
-		</div>	</div>
+		<div id="twoWheelVehicles" class="col-md-6 col-xs-10 col-xs-offset-1">
+			<input id="bicycle-checkbox" type="checkbox" name="vehicle1" value="Bicycle">&nbsp;Bicycle  
+			<input id="tricycle-checkbox" type="checkbox" name="vehicle2" value="Tricycle" disabled>&nbsp;Tricycle   
+			<input id="bike-checkbox" type="checkbox" name="vehicle3" value="Bike">&nbsp;Bike 
+		</div> <!-- //.twoWheelVehicles -->	
+		<div id="fourWheelVehicles" class="col-md-6 col-xs-10 col-xs-offset-1">
+			<input id="hatchback-checkbox" type="checkbox" name="vehicle4" value="Hatchback">&nbsp;Hatchback		
+			<input id="sedan-checkbox" type="checkbox" name="vehicle5" value="Sedan">&nbsp;Sedan    
+			<input id="van-checkbox" type="checkbox" name="vehicle6" value="Van">&nbsp;Van
+			<input id="suv-checkbox" type="checkbox" name="vehicle7" value="SUV">&nbsp;SUV
+			<input id="truck-checkbox" type="checkbox" name="vehicle8" value="Truck">&nbsp;Truck	
+		</div> <!-- //.fourWheelVehicles -->	
+		</div> <!-- //.row -->
+		<!-- CHECKBOXES START -->
 		<div class="row" style="margin:10px;"> 
 		<div class="col-md-12 col-xs-10 col-xs-offset-1" >
-		<strong>I read:&nbsp;&nbsp;</strong></div>
-		<div class="col-md-12 col-xs-10 col-xs-offset-1">
-			<input type="radio" name="books" value="Van"> &nbsp;Magazines  
-			<input type="radio" name="books" value="Testing"> &nbsp;Novels  
-			<input type="radio" name="books" value="Test Automation"> &nbsp;Self help books 
-	  </div>
-      </div>  
-    </form> 
-
+			<strong>I read:&nbsp;&nbsp;</strong>
+		</div>
+		<div id="booksCheckboxes" class="col-md-12 col-xs-10 col-xs-offset-1">
+			<input id="magazines-radio-btn" type="radio" name="books" value="Magazines"> &nbsp;Magazines  
+			<input id="novels-radio-btn" type="radio" name="books" value="Novels"> &nbsp;Novels  
+			<input id="self-help-radio-btn" type="radio" name="books" value="Self help books"> &nbsp;Self help books 
+	  </div> <!-- //.booksCheckboxes -->	
+      </div> <!-- //.row -->	
+    </form> <!-- //.practiceForm -->	
+<!-- //HORIZONTAL LINE TO SEPARATE FOOTER -->
  <hr>
+ <!-- //FOOTER SECTION -->
   <footer class="text-center">Written & Coded by <a href="https://seleniumtotherescue.wordpress.com/" target="_blank">Lakshmi Chandana</a>
-  </footer>
-	
+  </footer> <!-- //.footer -->	
+<!-- //FOOTER SECTION -->
+
   </body>  
-</html>
+</html> 	
