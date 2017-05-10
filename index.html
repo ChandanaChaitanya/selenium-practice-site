@@ -32,7 +32,7 @@
 			<input id="hatchback-checkbox" type="checkbox" name="vehicle4" value="Hatchback">&nbsp;Hatchback		
 			<input id="sedan-checkbox" type="checkbox" name="vehicle5" value="Sedan">&nbsp;Sedan    
 			<input id="van-checkbox" type="checkbox" name="vehicle6" value="Van">&nbsp;Van
-			<input id="suv-checkbox" type="checkbox" name="vehicle7" value="SUV" checked>&nbsp;SUV
+			<input id="suv-checkbox" type="checkbox" name="vehicle7" value="SUV">&nbsp;SUV
 			<input id="truck-checkbox" type="checkbox" name="vehicle8" value="Truck">&nbsp;Truck	
 		</div> <!-- //.fourWheelVehicles -->	
 		</div> <!-- //.row -->
@@ -47,6 +47,33 @@
 			<input id="self-help-radio-btn" type="radio" name="books" value="Self help books"> &nbsp;Self help books 
 	  </div> <!-- //.booksCheckboxes -->	
       </div> <!-- //.row -->	
+	  <!-- DROPDOWN START -->
+	  <div class="row" style="margin:10px;"> 
+	  <div id="dropdowns" class="col-md-12 col-xs-10 col-xs-offset-1" >		
+		<p><strong><label>Programming Languages</label></strong></p>
+		<select id="programming-languages" class="input-xlarge" name="languages">
+			<option value="Java">Java</option>
+			<option value="C++">C++</option>
+			<option value="C#">C#</option>
+			<option value="JavaScript">JavaScript</option>
+			<option value="Python">Python</option>
+			<option value="PHP">PHP</option>
+		</select>	  
+	    <br/>
+		<br/>
+        <!-- MULTIPLE SELECTION START -->
+        <p><strong><label>Selenium Tool Suite</label></strong></p>
+	    <select id="selenium_suite" multiple="multiple" name="selenium_suite">
+			<option value="IDE">Selenium IDE</option>
+			<option value="WebDriver">Selenium WebDriver</option>
+			<option value="RC">Selenium RC</option>
+			<option value="Grid">Selenium Grid</option>
+			<option value="Adv">Advantages</option>
+			<option value="Limitations">Limitations</option>
+		</select>
+	  </div> <!-- //.dropdowns -->	
+      </div> <!-- //.row -->
+      <!-- DROPDOWN END -->
     </form> <!-- //.practiceForm -->	
 <!-- //HORIZONTAL LINE TO SEPARATE FOOTER -->
  <hr>
