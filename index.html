@@ -100,6 +100,83 @@
 	  </div>
 	  </div> <!-- //.tables -->
       </div> <!-- //.row -->
+	  
+	  <!-- Pop-up boxes START -->
+	  <div class="row" style="margin:10px;"> 
+	  <div id="alertBox" class="col-md-3 col-xs-10 col-xs-offset-1">
+		<button onclick="simpleAlert()">Alert Box</button>
+	  </div> <!-- //.alertBox -->
+	  
+	  <div id="confirmBox" class="col-md-3 col-xs-10 col-xs-offset-1">
+		<button onclick="clickToConfirm()">Confirm Box</button>
+	  </div> <!-- //.confirmBox -->
+	  
+	  <div id="promptBox" class="col-md-3 col-xs-10 col-xs-offset-1">
+		<button onclick="clickToPrompt()">Prompt Box</button>
+	  </div> <!-- //.promptBox -->
+	  </div> <!-- //.row -->
+	  <!-- Pop-up boxes END -->
+	  <br/>
+	  <!-- Table START -->
+	  <div class="row" style="margin:10px;"> 
+	  <div id="AuthorsTable" class="col-md-10 col-xs-10 col-xs-offset-1">
+	  <p><strong><label>Books & Authors</label></strong></p>
+	  <div class="table-responsive">
+	  <table id="BooksAuthorsTable" class="table table-bordered">         
+		<tr>          
+			<th>Author</th>           
+			<th>Book 1</th>  
+			<th>Book 2</th> 
+			<th>Book 3</th> 
+		</tr> 
+		<tr>
+			<td>William Shakespeare</td>
+			<td>Romeo and Juliet</td>
+			<td>A Midsummer Night's Dream</td>
+			<td>Julius Caesar</td>
+		</tr>
+		<tr>
+			<td>J. R. R. Tolkien</td>
+			<td>The Lord of the Rings</td>
+			<td>The Hobbit</td>
+			<td>Tales from the Perilous Realm</td>
+		</tr>
+		<tr>
+			<td>Dan Brown</td>
+			<td>The Da Vinci Code</td>
+			<td>Angels & Demons</td>
+			<td>Deception Point</td>
+		</tr>
+		<tr>
+			<td>J. K. Rowling</td>
+			<td>Fantastic Beasts and Where to Find Them</td>
+			<td>Harry Potter Series</td>
+			<td>The Tales of Beedle the Bard</td>
+		</tr>
+		<tr>
+			<td>John Grisham</td>
+			<td>The Whistler</td>
+			<td>A Time to Kill</td>
+			<td>The Firm</td>
+		</tr>	
+		<tr>
+			<td>Nora Roberts</td>
+			<td>Jewels of the Sun</td>
+			<td>The Obsession</td>
+			<td>Stars of Fortune</td>
+		</tr>
+	  </table>
+	 </div>
+	 </div> <!-- //.AuthorsTable -->
+	  <!-- Table END -->
+	  
+	  <!--  START -->
+	<!--  <div id="TBD" class="col-md-4 col-xs-10 col-xs-offset-1">
+	  
+	  </div> <!-- //.TBD -->
+	  </div> <!-- //.row -->
+	   <!--  END -->
+ 
     </form> <!-- //.practiceForm -->	
 <!-- //HORIZONTAL LINE TO SEPARATE FOOTER -->
  <hr>
@@ -107,6 +184,15 @@
   <footer class="text-center">Written & Coded by <a href="https://seleniumtotherescue.wordpress.com/" target="_blank">Lakshmi Chandana</a>
   </footer> <!-- //.footer -->	
 <!-- //FOOTER SECTION -->
+
+<!-- SCRIPTS :placed at the end so that page loads faster -->
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- Font icons -->
+	<script src="https://use.fontawesome.com/ba8437ed1f.js"></script>   
+	<!-- Main JS -->
+	<script src="js/DemoSite.js"></script>
+<!-- //SCRIPTS -->
 
   </body>  
 </html> 	

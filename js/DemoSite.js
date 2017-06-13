@@ -1,0 +1,13 @@
+//alert box
+function simpleAlert(){
+window.alert("This is a simple alert box! \nYou can't escape from me until you click 'OK'!");
+}
+//confirm box
+function clickToConfirm(){
+window.confirm("Click 'OK' or 'Cancel'.");
+}
+//prompt box
+function clickToPrompt(){
+window.prompt("Which Selenium Tool do you like the most?","e.g. Selenium IDE");
+}
+
