@@ -1,4 +1,5 @@
-<html>  
+<!DOCTYPE html>
+<html lang="en">  
   <head>  
     <title>WebDriver Demo Website</title>
 	<div align="center" style="padding:5px;">
@@ -103,16 +104,16 @@
 	  
 	  <!-- Pop-up boxes START -->
 	  <div class="row" style="margin:10px;"> 
-	  <div id="alertBox" class="col-md-3 col-xs-10 col-xs-offset-1">
-		<button onclick="simpleAlert()">Alert Box</button>
+	  <div class="col-md-3 col-xs-10 col-xs-offset-1">
+		<button id="alertBox" onclick="simpleAlert()">Alert Box</button>
 	  </div> <!-- //.alertBox -->
 	  
-	  <div id="confirmBox" class="col-md-3 col-xs-10 col-xs-offset-1">
-		<button onclick="clickToConfirm()">Confirm Box</button>
+	  <div class="col-md-3 col-xs-10 col-xs-offset-1">
+		<button id="confirmBox" onclick="clickToConfirm()">Confirm Box</button>
 	  </div> <!-- //.confirmBox -->
 	  
-	  <div id="promptBox" class="col-md-3 col-xs-10 col-xs-offset-1">
-		<button onclick="clickToPrompt()">Prompt Box</button>
+	  <div class="col-md-3 col-xs-10 col-xs-offset-1">
+		<button id="promptBox" onclick="clickToPrompt()">Prompt Box</button>
 	  </div> <!-- //.promptBox -->
 	  </div> <!-- //.row -->
 	  <!-- Pop-up boxes END -->
@@ -187,7 +188,7 @@
 
 <!-- SCRIPTS :placed at the end so that page loads faster -->
 	<!-- Latest compiled and minified JQuery -->
-    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<!-- Font icons -->
