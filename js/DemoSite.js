@@ -10,4 +10,7 @@ window.confirm("Click 'OK' or 'Cancel'.");
 function clickToPrompt(){
 window.prompt("Which Selenium Tool do you like the most?","e.g. Selenium IDE");
 }
-
+//new browser window
+function newWindow(){
+window.open("https://www.google.co.in/", "_blank");
+}
