@@ -14,3 +14,7 @@ window.prompt("Which Selenium Tool do you like the most?","e.g. Selenium IDE");
 function newWindow(){
 window.open("https://www.google.co.in/", "_blank");
 }
+//new google page with specified width and height
+function windowToMaximize(){
+window.open("https://www.google.com/", '_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes');
+}
